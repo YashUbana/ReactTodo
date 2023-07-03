@@ -1,0 +1,87 @@
+.row{
+    display:grid;
+    grid-template-columns: 3fr 10fr;
+    grid-template-rows: 500px;
+    grid-gap: 10px;
+    grid-auto-flow: row;
+    grid-auto-rows: 100px;
+    grid-auto-columns: 100px;
+    grid-template-areas: "item1 item2";
+    background-color: #2196F3;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
+.btn{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.item {
+    background-color: #2196F3;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 10px 10px 5px #888888;
+    border-radius: 25px;
+    margin: 10px;
+
+}
+.item1 {
+    background-color: #a429ad;
+
+}
+.item2 {
+    background-color: #295cad;
+}
+.box{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.dateinput{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.todoinput{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 30px;
+    margin: 4px 2px;
+
+}
+.inbox:active{
+    background-color: #4CAF50;
+    transform: translateY(4px);
+}
+.today:active{
+    background-color: #4CAF50;
+    transform: translateY(4px);
+}
+.next:active{
+    background-color: #4CAF50;
+    transform: translateY(4px);
+}
